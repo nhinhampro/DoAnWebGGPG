@@ -11,7 +11,7 @@ import SocketConnector from '@/components/socket-connector';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'GreenwichGradualProjectGallery',
+  title: 'GGPG',
   description: 'Greenwich Gradual Project Gallery'
 };
 
