@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Thangdev"
+    "name": "Minh"
   },
   "scripts": {
-    "dev": "next dev -p 5173",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "format": "prettier . --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "production": "npm run build && next start -p 3001"
   },
   "lint-staged": {
     "**/*": [
