@@ -30,11 +30,13 @@ export default async function ProjectPage({ params }: any) {
         <div className={'text-[36px] font-[800]'}>{project.title}</div>
         <div className={'flex flex-row items-center justify-between'}>
           <div className={'flex flex-row items-center'}>
-                <img
-                  className={'h-12 w-12 rounded-full'}
-                  src={gravatar.url(project.author.email)}
-                  alt={project.author.fullName}
-                />
+           <img
+              className={'mr-4 h-12 w-12 rounded-full'}
+              src={
+                'https://innostudio.de/fileuploader/images/default-avatar.png'
+              }
+              alt={'user'}
+            />
             <div className={'my-4'}>
               <div>{project.author.fullName}</div>
               <div className={'text-sm text-neutral-500'}>
