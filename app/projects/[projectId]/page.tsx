@@ -32,9 +32,10 @@ export default async function ProjectPage({ params }: any) {
           <div className={'flex flex-row items-center'}>
             <img
               className={'mr-4 h-12 w-12 rounded-full'}
-              src={
+                                src={gravatar.url(project.author.email)}
+{/*               src={
                 'https://innostudio.de/fileuploader/images/default-avatar.png'
-              }
+              } */}
               alt={'user'}
             />
             <div className={'my-4'}>
