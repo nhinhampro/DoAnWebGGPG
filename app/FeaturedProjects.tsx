@@ -49,7 +49,14 @@ export default function FeaturedProjects({ projects }: FeaturedProjectsProps) {
           <div className={'col-span-1 lg:px-4'}>
             <div className={'line-clamp-4'}>{activeProject?.description}</div>
             <div className={'flex flex-row items-start gap-2 py-4'}>
-              
+                           <Link
+                className={
+                  'flex h-10 items-center rounded-full bg-black px-4 text-white'
+                }
+                href={'/contact'}
+              >
+                Contact Us
+              </Link> 
               <Link
                 className={
                   'flex h-10 w-10 items-center justify-center rounded-full border border-neutral-200'
